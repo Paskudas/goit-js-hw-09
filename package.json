@@ -5,7 +5,7 @@
   "homepage": "https://Paskudas.github.io/goit-js-hw-09",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --publirc-ul /goit-js-hw-09/"
+    "build": "parcel build src/*.html --publirc-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
