@@ -19,11 +19,9 @@ form.addEventListener('submit', handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
   const { delay, step, amount } = event.target.elements;
-  const firstDelay = parseInt(delay.value);
+  let Delay = parseInt(delay.value);
   const delayStep = parseInt(step.value);
   const promiseAmount = parseInt(amount.value);
-
-  let currentDelay = firstDelay;
 
   for (let i = 1; i <= promiseAmount; i++) {
     createPromise(i, currentDelay)
